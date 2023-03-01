@@ -1,5 +1,6 @@
 import { Column, Entity, TableInheritance, Unique } from 'typeorm';
 
+// import { ImageCart, ImagePreview } from '@entities/images';
 import { ProductType } from '@models/enum';
 
 import { BaseEntity } from '../common';

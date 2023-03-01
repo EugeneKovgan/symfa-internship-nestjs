@@ -1,4 +1,4 @@
-export class CreateProductDto {
+export type CreateProductDto = {
   readonly id: number;
   readonly title: string;
   readonly price: number;
@@ -10,4 +10,4 @@ export class CreateProductDto {
   readonly installments: number;
   readonly isFreeShipping: boolean;
   readonly style: string;
-}
+};

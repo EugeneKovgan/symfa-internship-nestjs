@@ -1,2 +1,2 @@
 export * from './aware-id';
-export * from './create-product.dto';
+export * from '../types/product-type';
